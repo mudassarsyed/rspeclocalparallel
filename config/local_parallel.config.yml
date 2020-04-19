@@ -1,0 +1,26 @@
+server: "hub-cloud.browserstack.com"
+user: "mudassardemo"
+key: "Mz55zvYU9iCdyV9dvsKv"
+
+common_caps:
+  "build": "rspec-browserstack"
+  "browserstack.debug": true
+
+browser_caps:
+  -
+    "browser": "chrome"
+    "version": "60"
+    "browserstack.local": true
+    "browserstack.localIdentifier": "Test1"
+  -
+    "browser": "firefox"
+    "browserstack.local": true
+    "browserstack.localIdentifier": "Test2"
+  -
+    "browser": "internet explorer"
+    "browserstack.local": true
+    "browserstack.localIdentifier": "Test3"
+  -
+    "browser": "safari"
+    "browserstack.local": true
+    "browserstack.localIdentifier": "Test4"
